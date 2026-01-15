@@ -571,6 +571,178 @@
         .stat:nth-child(1) { animation-delay: 0.1s; }
         .stat:nth-child(2) { animation-delay: 0.15s; }
         .stat:nth-child(3) { animation-delay: 0.2s; }
+
+        /* Mobile Responsive */
+        @media (max-width: 600px) {
+            body {
+                padding: 20px 12px;
+            }
+
+            .container {
+                max-width: 100%;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            .subtitle {
+                font-size: 0.9rem;
+            }
+
+            .header {
+                margin-bottom: 24px;
+            }
+
+            .theme-toggle {
+                position: static;
+                margin: 0 auto 16px auto;
+                padding: 6px 12px;
+                font-size: 0.8rem;
+            }
+
+            .filters {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 8px;
+                margin-bottom: 24px;
+            }
+
+            .filter-group {
+                width: 100%;
+            }
+
+            .multi-select,
+            .filter-group select {
+                width: 100%;
+                min-width: unset;
+            }
+
+            .reset-btn {
+                width: 100%;
+                margin-top: 4px;
+            }
+
+            .stats {
+                gap: 8px;
+                margin-bottom: 24px;
+            }
+
+            .stat {
+                padding: 12px 16px;
+                min-width: unset;
+                flex: 1;
+                border-radius: 12px;
+            }
+
+            .stat-value {
+                font-size: 1.4rem;
+            }
+
+            .stat-label {
+                font-size: 0.65rem;
+            }
+
+            .grid {
+                gap: 12px;
+                margin-bottom: 24px;
+            }
+
+            .chart-container,
+            .list-container {
+                padding: 16px;
+                border-radius: 12px;
+            }
+
+            .chart-title {
+                font-size: 1rem;
+            }
+
+            .chart-subtitle {
+                font-size: 0.75rem;
+            }
+
+            #genreChart {
+                height: 280px;
+            }
+
+            #genrePieChart {
+                min-height: 220px;
+            }
+
+            .genre-charts-wrapper {
+                gap: 12px;
+            }
+
+            .chart-header {
+                flex-direction: column;
+                gap: 8px;
+            }
+
+            .toggle-container {
+                align-self: flex-start;
+            }
+
+            .toggle-btn {
+                padding: 6px 12px;
+                font-size: 0.7rem;
+            }
+
+            .top-list li {
+                padding: 10px 4px;
+                margin: 0 -4px;
+            }
+
+            .rank {
+                font-size: 0.85rem;
+                width: 24px;
+            }
+
+            .item-name {
+                font-size: 0.85rem;
+            }
+
+            .item-artist {
+                font-size: 0.75rem;
+            }
+
+            .item-hours {
+                font-size: 0.75rem;
+                margin-left: 8px;
+            }
+
+            .item-pct {
+                font-size: 0.65rem;
+            }
+
+            .section-title {
+                font-size: 1.2rem;
+                margin: 32px 0 16px 0;
+            }
+
+            .artist-header {
+                flex-direction: column;
+                gap: 4px;
+                margin-bottom: 16px;
+            }
+
+            .artist-name {
+                font-size: 1.4rem;
+            }
+
+            .artist-total {
+                font-size: 0.85rem;
+            }
+
+            .footer {
+                margin-top: 32px;
+                font-size: 0.7rem;
+            }
+
+            .multi-select-options {
+                max-height: 200px;
+            }
+        }
     </style>
 </head>
 <body>
