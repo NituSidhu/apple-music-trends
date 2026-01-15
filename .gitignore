@@ -1,0 +1,25 @@
+# Raw Apple Music data exports (personal/sensitive)
+*.csv
+*.zip
+*.json
+artist_genres.json
+lastfm_genres.json
+final_genre_analysis.json
+Apple Music Library Tracks.json
+
+# Blog draft
+blog_post_draft.md
+
+# Jupyter notebooks and Python cache
+*.ipynb
+__pycache__/
+.ipynb_checkpoints/
+
+# R history
+.Rhistory
+
+# Other data files
+*.rtfd/
+
+# macOS
+.DS_Store
